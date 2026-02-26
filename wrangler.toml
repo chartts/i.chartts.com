@@ -1,4 +1,9 @@
 name = "i-chartts"
 main = "src/index.ts"
+account_id = "4db0f8f5d8373b6e64755fd0db527b8c"
 compatibility_date = "2025-02-01"
 compatibility_flags = ["nodejs_compat"]
+
+routes = [
+  { pattern = "i.chartts.com/*", zone_name = "chartts.com" }
+]
